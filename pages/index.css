@@ -15,3 +15,13 @@
 @import url(../blocks/lead/__img/lead__img.css);
 @import url(../blocks/lead/__route/lead__route.css);
 @import url(../blocks/lead/__background/lead__background.css);
+
+/*intro*/
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__opros/intro__opros.css);
+@import url(../blocks/intro/__fact/intro__fact.css);
+
+/*gallery*/
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__photo/gallery__photo.css);
