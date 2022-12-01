@@ -1,0 +1,25 @@
+@font-face {
+    src: url(../../fonts/Web/Inter-Regular.woff) format('woff'),
+    url(../../fonts/Web/Inter-Regular.woff2) format('woff2'),
+    url(../../fonts/Desktop/Inter-Regular.ttf) format('ttf');
+    font-family: 'Inter';
+    font-weight: 400;
+}
+
+@font-face {
+    src: url(../../fonts/Web/Inter-Bold.woff) format('woff'),
+    url(../../fonts/Web/Inter-Bold.woff2) format('woff2'),
+    url(../../fonts/Desktop/Inter-Bold.ttf) format('ttf');
+    font-family: 'Inter';
+    font-weight: 900;
+}
+
+.page {
+    background-color: #2A2C2F;
+    margin: 0;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-size: 100%;
+    font-weight: normal;
+    
+}
