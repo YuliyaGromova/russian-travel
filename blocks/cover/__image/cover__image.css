@@ -7,4 +7,7 @@
     z-index: 1;
     object-fit: cover;
     opacity: .8;
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-timing-function: linear;
 }

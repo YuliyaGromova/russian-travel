@@ -1,0 +1,8 @@
+.footer__author {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 114%;
+/* identical to box height, or 114% */
+}
