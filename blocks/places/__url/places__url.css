@@ -5,7 +5,7 @@
   justify-content: flex-end;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 544px) {
   .places__url {
     width: 90%;
     margin: 0 auto;

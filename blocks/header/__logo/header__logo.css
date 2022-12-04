@@ -1,4 +1,14 @@
-.heder__logo {
+.header__logo {
   margin: 0;
   align-self: center;
+  width: 176px;
+  object-fit: cover;
+  object-position: top;
+}
+
+@media screen and (max-width: 544px) {
+  .header__logo {
+    width: 142px;
+  }
+  
 }

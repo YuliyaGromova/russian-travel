@@ -1,6 +1,17 @@
 .link {
   margin: 0;
   padding: 0;
-  text-decoration: none;
+  /* text-decoration: none; */
   color: #fff;
+  transition-property: all;
+  transition-duration: .5s;
+  transition-timing-function: ease;
+}
+
+.footer__link > .link {
+  text-decoration: none;
+}
+
+.link:hover {
+  opacity: .8;
 }

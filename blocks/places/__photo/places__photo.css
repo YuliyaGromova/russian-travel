@@ -4,7 +4,7 @@
   object-position: top;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 544px) {
   .places__photo {
     margin: 32px 0;
   }

@@ -1,5 +1,5 @@
 .header {
-  width: 90%;
+  width: calc(100% - 96px);
   margin: 0 auto;
   box-sizing: border-box;
   padding: 28px 0 0 0;
@@ -8,8 +8,14 @@
   align-items: flex-end;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 896px) {
   .header {
+    width: calc(100% - 48px);
+  }
+}
+@media screen and (max-width: 544px) {
+  .header {
+    width: calc(100% - 32px);
     padding-top: 16px;
   }
 }

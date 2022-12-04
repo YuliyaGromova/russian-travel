@@ -7,21 +7,28 @@
   gap: 48px 40px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1152px) {
   .places__place {
     grid-template-columns: minmax(440px, 40%) auto;
     row-gap: 32px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 896px) {
   .places__place {
     grid-template-columns: minmax(340px, 40%) auto;
     row-gap: 28px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 700px) {
+  .places__place {
+    grid-template-columns: 40% auto;
+    row-gap: 28px;
+  }
+}
+
+@media screen and (max-width: 544px) {
   .places__place {
     grid-template-columns: 1fr;
     grid-auto-rows: max-content;
