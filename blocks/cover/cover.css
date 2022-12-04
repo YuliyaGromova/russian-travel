@@ -1,11 +1,15 @@
 .cover {
-    width: 92%;
-    margin: 0 auto;
-    /* width: 100%; */
-    box-sizing: border-box;
-    padding-top: 92px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    border: 1px solid red;
+  width: 92%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-top: 92px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+  }
 }

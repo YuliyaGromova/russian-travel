@@ -1,11 +1,11 @@
 .places__photo {
-    width: 100%;
-    object-fit: cover;
-    object-position: top;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
 }
 
 @media screen and (max-width: 320px) {
-    .places__photo {
-        margin: 32px 0;
-    }
+  .places__photo {
+    margin: 32px 0;
+  }
 }

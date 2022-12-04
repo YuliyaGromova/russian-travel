@@ -1,9 +1,15 @@
 .footer__columns {
-    width: 92%;
-    margin: 0 auto;
-    padding: 0;
-    display: flex;
-    border: 1px solid pink;
-    justify-content: space-between;
-    align-items: flex-end;
+  width: 92%;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__columns {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
