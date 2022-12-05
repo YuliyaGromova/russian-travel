@@ -8,14 +8,23 @@
   justify-content: center;
 }
 
+@media screen and (max-width: 1152px) {
+  .gallery {
+    gap: 14px;
+  }
+}
+
 @media screen and (max-width: 896px) {
   .gallery {
     width: calc(100% - 48px);
+    gap: 16px;
+    padding-top: 88px;
   }
 }
 @media screen and (max-width: 544px) {
   .gallery {
     width: calc(100% - 32px);
     gap: 12px;
+    padding-top: 64px;
   }
 }
