@@ -23,6 +23,7 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__opros/intro__opros.css);
 @import url(../blocks/intro/__fact/intro__fact.css);
+@import url(../blocks/intro/__facts/intro__facts.css);
 
 /*gallery*/
 @import url(../blocks/gallery/gallery.css);
