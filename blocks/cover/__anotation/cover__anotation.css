@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 544px) {
   .cover__anotation {
-    max-width: calc(100% -32px);
+    max-width: calc(100% - 32px);
     padding-top: 16px;
     font-size: 14px;
     font-weight: 1.14;
