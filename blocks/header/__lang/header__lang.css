@@ -10,10 +10,6 @@
   align-self: center;
 }
 
-.header__lang:first-of-type {
-  text-decoration: underline;
-}
-
 @media screen and (max-width: 544px) {
   .header__lang {
     font-size: 18px;
