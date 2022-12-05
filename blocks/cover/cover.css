@@ -13,3 +13,15 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 896px) {
+  .cover {
+    padding-top: 90px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .cover {
+    padding-top: 66px;
+  }
+}

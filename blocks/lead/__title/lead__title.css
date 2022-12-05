@@ -5,15 +5,22 @@
   text-align: center;
   align-self: center;
   font-size: 96px;
-  line-height: 104%;
+  line-height: 1.04;
   margin: 0;
   padding: 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 720px) {
+  .lead__title {
+    max-width: 90%;
+    font-size: 46px
+  }
+}
+
+@media screen and (max-width: 544px) {
   .lead__title {
     max-width: 288px;
     font-size: 40px;
-    line-height: 104%;
+    line-height: 1.1;
   }
 }
