@@ -8,6 +8,11 @@
   color: #fff;
   margin-left: 18px;
   align-self: center;
+  list-style: none;
+}
+
+.header__lang:first-of-type {
+  margin-left: 0;
 }
 
 @media screen and (max-width: 544px) {

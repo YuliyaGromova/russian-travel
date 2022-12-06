@@ -1,5 +1,5 @@
 .places {
-  width: calc(100% - (100% - 96px)/4);
+  max-width: 984px;
   box-sizing: border-box;
   padding-top: 12px;
   margin: 0 auto;
@@ -10,13 +10,13 @@
 
 @media screen and (max-width: 1152px) {
   .places {
-    width: calc(100% - 96px);
+    max-width: 928px;
   }
 }
 
 @media screen and (max-width: 896px) {
   .places {
-    width: calc(100% - 48px);
+    max-width: 720px;
   }
 }
 

@@ -5,9 +5,6 @@
   transition-property: all;
   transition-duration: .5s;
   transition-timing-function: ease;
-}
-
-.footer__link > .link {
   text-decoration: none;
 }
 

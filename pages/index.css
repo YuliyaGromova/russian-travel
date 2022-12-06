@@ -2,6 +2,7 @@
 @import url(../vendor/fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/link/link.css);
+@import url(../blocks/photo/photo.css);
 
 /*header*/
 @import url(../blocks/header/header.css);
@@ -25,10 +26,12 @@
 @import url(../blocks/intro/__opros/intro__opros.css);
 @import url(../blocks/intro/__fact/intro__fact.css);
 @import url(../blocks/intro/__facts/intro__facts.css);
+@import url(../blocks/intro/__span-accent/intro__span-accent.css);
 
 /*gallery*/
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__photo/gallery__photo.css);
+@import url(../blocks/gallery/__photos/gallery__photos.css);
 
 /* places */
 @import url(../blocks/places/places.css);
@@ -52,6 +55,5 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
-@import url(../blocks/footer/__column/footer__column.css);
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__links/footer__links.css);

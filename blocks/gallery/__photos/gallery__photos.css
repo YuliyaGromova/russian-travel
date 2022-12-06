@@ -1,0 +1,26 @@
+.gallery__photos {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1152px) {
+  .gallery__photos {
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 896px) {
+  .gallery__photos {
+    gap: 16px;
+  }
+}
+@media screen and (max-width: 544px) {
+  .gallery__photos {
+    gap: 12px;
+  }
+}
