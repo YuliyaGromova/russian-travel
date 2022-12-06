@@ -1,9 +1,8 @@
 .gallery__photo {
   width: calc((100% + 16px) / 4 - 16px);
   margin: 0;
-  /* object-fit: cover;
-  object-position: top; */
   list-style: none;
+  line-height: 0;
 }
 
 @media screen and (max-width: 1152px) {

@@ -1,5 +1,6 @@
 .footer__columns {
   max-width: 1184px;
+  width: 90%;
   margin: 0 auto;
   padding: 0;
   display: flex;
@@ -9,19 +10,19 @@
 
 @media screen and (max-width: 1152px) {
   .footer__columns {
-    max-width: 928px;
+    width: calc(100% - 96px);
   }
 }
 
 @media screen and (max-width: 896px) {
   .footer__columns {
-    max-width: 720px;
+    width: calc(100% - 48px);
   }
 }
 
 @media screen and (max-width: 544px) {
   .footer__columns {
-    max-width: 288px;
+    width: calc(100% - 32px);
     flex-direction: column;
     align-items: flex-start;
   }

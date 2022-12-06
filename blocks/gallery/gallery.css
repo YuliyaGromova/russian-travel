@@ -1,24 +1,25 @@
 .gallery {
   max-width: 1184px;
+  width: 95%;
   margin: 0 auto;
   padding-top: 92px;
 }
 
 @media screen and (max-width: 1152px) {
   .gallery {
-    max-width: 928px;
+    width: calc(100% - 96px);
   }
 }
 
 @media screen and (max-width: 896px) {
   .gallery {
-    max-width: 720px;
+    width: calc(100% - 48px);
     padding-top: 88px;
   }
 }
 @media screen and (max-width: 544px) {
   .gallery {
-    width: 100%;
+    width: calc(100% - 32px);
     padding-top: 64px;
   }
 }

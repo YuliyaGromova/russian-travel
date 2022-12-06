@@ -10,13 +10,13 @@
 
 @media screen and (max-width: 1152px) {
   .places {
-    max-width: 928px;
+    width: calc(100% - 96px);
   }
 }
 
 @media screen and (max-width: 896px) {
   .places {
-    max-width: 720px;
+    width: calc(100% - 48px);
   }
 }
 
