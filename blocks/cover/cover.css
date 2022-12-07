@@ -4,9 +4,6 @@
   margin: 0 auto;
   box-sizing: border-box;
   padding-top: 92px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
 }
 
 @media screen and (max-width: 1152px) {
